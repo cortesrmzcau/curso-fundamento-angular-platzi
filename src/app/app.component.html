@@ -1,3 +1,11 @@
+<h1>NgModel</h1>
+<p>Nombre {{ person.name }}</p>
+<input type="text" required #nameInput="ngModel" [(ngModel)]="person.name" />
+<p>Valid: {{ nameInput.valid }}</p>
+<p>Age: {{ person.age }}</p>
+<input type="number" max="27" min="10" required #ageInput="ngModel" [(ngModel)]="person.age" />
+<p>Age: {{ ageInput.valid }}</p>
+<hr>
 <h1>Eventos</h1>
 <button [disabled]="btnDisabled">Enviar</button>
 <button (click)="toggleButton()">Toggle Button</button>
@@ -6,8 +14,6 @@
 <div class="box" (scroll)="onScroll($event)">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti adipisci, aut, commodi nihil magni ipsam ratione blanditiis a similique assumenda consequatur culpa deserunt nemo facilis voluptas. In, repellendus aspernatur.</p>
 </div>
-<p>Nombre {{ person.name }}</p>
-<input type="text" [value]="person.name" (keyup)="changeName($event)">
 <hr>
 <h1>Propiedades</h1>
 <button [disabled]="btnDisabled">Enviar</button>
