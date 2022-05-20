@@ -18,6 +18,9 @@ export class AppComponent {
     img: 'https://1.bp.blogspot.com/-xm6qY-hkYOc/X4MbD0L7C1I/AAAAAAABDuo/znkKx2jkf5kRoIte-rQpNb4hfryTUdJTACLcBGAsYHQ/s2048/EjS_hIfUcAA1nGh.jpg'
   }
 
+  names: string[] = ['Cesar', 'Alejandro', 'Sebas'];
+  newName: string = '';
+
   toggleButton() {
     this.btnDisabled = !this.btnDisabled;
   }
@@ -34,5 +37,14 @@ export class AppComponent {
   changeName(event: Event) {
     const element = event.target as HTMLInputElement;
     this.person.name = element.value;
+  }
+
+  addName() {
+    this.names.push(this.newName);
+    this.newName = '';
+  }
+
+  deleteName(index: number) {
+    this.names.splice(index, 1);
   }
 }
