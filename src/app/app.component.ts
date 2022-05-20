@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './product';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,25 @@ export class AppComponent {
 
   names: string[] = ['Cesar', 'Alejandro', 'Sebas'];
   newName: string = '';
+
+  products: Product[] = [
+    {
+      name: 'Poster de kda',
+      price: 1000,
+      image: 'https://1.bp.blogspot.com/-xm6qY-hkYOc/X4MbD0L7C1I/AAAAAAABDuo/znkKx2jkf5kRoIte-rQpNb4hfryTUdJTACLcBGAsYHQ/s2048/EjS_hIfUcAA1nGh.jpg',
+      category: 'kda'
+    },
+    {
+      name: 'Poster de Blackpink',
+      price: 800,
+      image: 'https://www.dondeir.com/wp-content/uploads/2021/08/blackpink-the-movie-ya-se-estreno-en-mexico-y-aqui-puedes-verla.jpg'
+    },
+    {
+      name: 'Poster Itzy',
+      price: 500,
+      image: 'https://thebiaslistcom.files.wordpress.com/2022/03/itzy-voltage.jpg?w=640'
+    }
+  ];
 
   toggleButton() {
     this.btnDisabled = !this.btnDisabled;
