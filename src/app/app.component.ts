@@ -4,7 +4,7 @@ import { Product } from './product';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   name = 'Cesar';
@@ -38,6 +38,21 @@ export class AppComponent {
       name: 'Poster Itzy',
       price: 500,
       image: 'https://thebiaslistcom.files.wordpress.com/2022/03/itzy-voltage.jpg?w=640'
+    },
+    {
+      name: 'Poster Twice',
+      price: 200,
+      image: 'https://lastfm.freetls.fastly.net/i/u/770x0/60d8bd7e6bf29923af930dbb4e0379c5.jpg'
+    },
+    {
+      name: 'Poster G-IDLE',
+      price: 100,
+      image: 'https://pbs.twimg.com/media/Ese6R0IW8AAMY7N.jpg:large'
+    },
+    {
+      name: 'Poster Chung ha',
+      price: 50,
+      image: 'https://http2.mlstatic.com/D_NQ_NP_857557-MLM43021471846_082020-O.jpg'
     }
   ];
 
