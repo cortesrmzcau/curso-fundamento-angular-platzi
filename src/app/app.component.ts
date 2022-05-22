@@ -56,6 +56,8 @@ export class AppComponent {
     }
   ];
 
+  widthImg = 10;
+
   toggleButton() {
     this.btnDisabled = !this.btnDisabled;
   }
