@@ -1,6 +1,8 @@
 ### 🌟 **Estas practicas son del curso de Fundamentos de Angular** 💚
 
-🔔 Curso de [Fundamentos de Angular](https://platzi.com/cursos/angular/) de Platzi
+🔔 [Demo](https://62bc94962aea5d005e01468a--comforting-cascaron-6d19dc.netlify.app/)
+
+🔔 Curso [Fundamentos de Angular](https://platzi.com/cursos/angular/) en Platzi
 
 #### Estructura del curso:
 - Estructura del proyectos
@@ -8,6 +10,8 @@
 - Comunicación de datos
 - Estructuras de control
 - Estilos
+
+------------
 ### 🔔 Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
