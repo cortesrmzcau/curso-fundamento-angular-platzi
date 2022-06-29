@@ -1,14 +1,13 @@
 ### 🌟 **Estas practicas son del curso de Fundamentos de Angular** 💚
 
-Curso de Fundamentos de Angular de Platzi
+🔔 Curso de [Fundamentos de Angular](https://platzi.com/cursos/angular/) de Platzi
 
-#### Se vieron algunos temas como son:
+#### Estructura del curso:
 - Estructura del proyectos
 - Conceptos de TypeScript
 - Comunicación de datos
 - Estructuras de control
 - Estilos
-
 ### 🔔 Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
